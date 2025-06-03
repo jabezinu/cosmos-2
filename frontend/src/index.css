@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-logo {
+  font-family: 'Dancing Script', cursive;
+}
+.font-main {
+  font-family: 'Poppins', sans-serif;
+}
