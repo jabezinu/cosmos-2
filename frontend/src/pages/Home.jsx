@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { Star, Clock, MapPin, Phone, Mail, Send, Sparkles, Coffee, Utensils, Heart } from 'lucide-react';
+import pasta from '../assets/pasta.jpg';
 
 // Initialize EmailJS
 emailjs.init("wav-Q52MmI5_-DfLA");
@@ -14,7 +15,7 @@ const Home = () => {
       id: 1,
       name: "Cosmic Latte",
       description: "Our signature blend with hints of vanilla and cosmic dust, served with steamed milk art",
-      price: "$8.50",
+      price: "80.50 Birr",
       category: "Signature Drinks",
       image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop"
     },
@@ -22,7 +23,7 @@ const Home = () => {
       id: 2,
       name: "Nebula Toast",
       description: "Artisanal sourdough with avocado, heirloom tomatoes, and edible flowers",
-      price: "$14.00",
+      price: "140.00 Birr",
       category: "Breakfast",
       image: "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=400&h=300&fit=crop"
     },
@@ -30,7 +31,7 @@ const Home = () => {
       id: 3,
       name: "Galaxy Bowl",
       description: "Acai bowl topped with fresh berries, granola, and coconut flakes in spiral formation",
-      price: "$16.50",
+      price: "16.50 Birr",
       category: "Healthy",
       image: "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=400&h=300&fit=crop"
     },
@@ -38,15 +39,15 @@ const Home = () => {
       id: 4,
       name: "Stardust Pasta",
       description: "House-made linguine with truffle oil, wild mushrooms, and parmesan constellation",
-      price: "$22.00",
+      price: "22.00 Birr",
       category: "Mains",
-      image: "https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?w=400&h=300&fit=crop"
+      image: pasta
     },
     {
       id: 5,
       name: "Cosmic Tiramisu",
       description: "Classic Italian dessert with coffee-soaked ladyfingers and mascarpone clouds",
-      price: "$12.00",
+      price: "12.00 Birr",
       category: "Desserts",
       image: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop"
     },
@@ -54,7 +55,7 @@ const Home = () => {
       id: 6,
       name: "Moonlight Cocktail",
       description: "Gin-based cocktail with elderflower, cucumber, and a touch of shimmer",
-      price: "$15.00",
+      price: "55.00 Birr",
       category: "Cocktails",
       image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=400&h=300&fit=crop"
     }
@@ -343,7 +344,7 @@ const Home = () => {
                 <div>
                   <div className="font-semibold text-white">Hours</div>
                   <div className="text-slate-400">
-                    Mon-Sun: 1AM - 1PM<br />
+                    Mon-Sun: 7AM - 7PM<br />
                   </div>
                 </div>
               </div>
