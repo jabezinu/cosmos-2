@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar.jsx";
 import Home from "./pages/Home";
 
 export default function App() {
